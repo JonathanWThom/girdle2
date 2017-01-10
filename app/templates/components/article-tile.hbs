@@ -1,5 +1,5 @@
 <div class="article-tile">
-  <h3>{{article.title}}</h3>
+  <h3>{{#link-to 'article' article.id}}{{article.title}}{{/link-to}}</h3>
   <h4>{{article.author}}</h4>
-  <img src={{article.image}}>
+  {{#link-to 'article' article.id}}<img src={{article.image}}>{{/link-to}}
 </div>
