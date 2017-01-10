@@ -1,0 +1,17 @@
+{ "articles": [{
+    "author": "Veruca Salt",
+    "title": "San Francisco",
+    "text": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "author": "Veruca Salt1",
+    "title": "San Francisco1",
+    "text": "Estate1",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "author": "Veruca Salt2",
+    "title": "San Francisco2",
+    "text": "Estate2",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }]
+}
