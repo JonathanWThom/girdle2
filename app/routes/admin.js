@@ -22,6 +22,10 @@ export default Ember.Route.extend({
       var newArticle = this.store.createRecord('article', params);
       newArticle.save();
       this.transitionTo('admin');
+    },
+    deleteComment(comment) {
+      comment.destroyRecord();
+      this.transitionTo('admin');
     }
   }
 });

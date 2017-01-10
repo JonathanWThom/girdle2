@@ -9,15 +9,6 @@ body {
   background-size: cover;
 }
 
-.article-tile img {
-  width: 100%;
-  margin: 10px;
-}
-.article-tile {
-  background-color: white;
-  margin: 20px;
-}
-
 nav {
   background-color: white;
 }
@@ -36,9 +27,3 @@ nav .brand-logo {
   display: block;
   margin: 0 auto;
 }
-
-/*.center {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}*/

@@ -1,4 +1,4 @@
 {{#each model as |article|}}
-  {{admin-tile article = article edit='edit' delete='delete'}}
+  {{admin-tile article = article edit='edit' delete='delete' deleteComment = "deleteComment"}}
 {{/each}}
 {{new-article saveArticle = 'saveArticle'}}

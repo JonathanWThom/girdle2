@@ -1,27 +1,32 @@
 {{#if updateArticleForm}}
   <div>
     <form>
-      <div class="form-group">
-        <label for="owner">Title</label>
+      <div class="input-field">
         {{input value=title id="title" placeholder=article.title}}
+        <label for="owner">Title</label>
       </div>
 
-      <div class="form-group">
+      <div class="input-field">
         <label for="author">Author</label>
         {{input value=author id="author" placeholder=article.author}}
       </div>
 
-      <div class="form-group">
+      <div class="input-field">
         <label for="text">Text</label>
         {{input value=text id="text" placeholder=article.text}}
       </div>
 
-      <div class="form-group">
+      <div class="input-field">
         <label for="image">Image URL</label>
         {{input value=image id="image" placeholder=article.image}}
       </div>
 
       <button {{action 'edit' article}}>Save</button>
+      <ul>
+        {{#each article.comments as |comment|}}
+          {{comment-admin-tile comment=comment deleteComment="deleteComment"}}
+        {{/each}}
+      </ul>
     </form>
   </div>
 {{else}}

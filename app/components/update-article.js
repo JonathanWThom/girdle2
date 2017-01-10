@@ -15,6 +15,10 @@ export default Ember.Component.extend({
       };
       this.set('updateArticleForm', false);
       this.sendAction('edit', article, params);
+    },
+    deleteComment(comment) {
+      this.sendAction('deleteComment', comment);
+      console.log('update article');
     }
   }
 });
