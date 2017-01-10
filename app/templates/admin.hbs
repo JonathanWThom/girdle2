@@ -1,1 +1,4 @@
-{{outlet}}
+{{#each model as |article|}}
+  {{admin-tile article = article edit='edit' delete='delete'}}
+
+{{/each}}
