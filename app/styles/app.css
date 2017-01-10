@@ -4,7 +4,15 @@
 }
 
 body {
-  background-image: url('https://cdn.bustle.com/nighthawk.bustle.com/production/images/featured-pattern-adf4d28b62ab3709637409b79515f043.svg');
-  background-repeat: repeat;
-  /*add linear gradient later*/
+  background: linear-gradient(to top, #9b9b9b, transparent), url('https://cdn.bustle.com/nighthawk.bustle.com/production/images/featured-pattern-adf4d28b62ab3709637409b79515f043.svg');
+}
+
+.article-tile img {
+  width: 100%;
+  margin: 10px;
+}
+.article-tile {
+  background-color: white;
+  margin: 20px;
+
 }

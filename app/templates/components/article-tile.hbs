@@ -1,5 +1,9 @@
-<div class="article-tile">
-  <h3>{{#link-to 'article' article.id}}{{article.title}}{{/link-to}}</h3>
-  <h4>{{article.author}}</h4>
-  {{#link-to 'article' article.id}}<img src={{article.image}}>{{/link-to}}
+<div class="row article-tile">
+  <div class="col-sm-6">
+    {{#link-to 'article' article.id}}<img src={{article.image}}>{{/link-to}}
+  </div>
+  <div class="col-sm-6">
+    <h3>{{#link-to 'article' article.id}}{{article.title}}{{/link-to}}</h3>
+    <h4>{{article.author}}</h4>
+  </div>
 </div>
