@@ -17,6 +17,11 @@ export default Ember.Route.extend({
     delete(article) {
       article.destroyRecord();
       this.transitionTo('admin');
+    },
+    saveArticle(params) {
+      var newArticle = this.store.createRecord('article', params);
+      newArticle.save();
+      this.transitionTo('admin');
     }
   }
 });
