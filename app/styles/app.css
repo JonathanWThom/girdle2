@@ -1,0 +1,10 @@
+#header {
+  text-align: center;
+  background-color: gray;
+}
+
+body {
+  background-image: url('https://cdn.bustle.com/nighthawk.bustle.com/production/images/featured-pattern-adf4d28b62ab3709637409b79515f043.svg');
+  background-repeat: repeat;
+  /*add linear gradient later*/
+}
