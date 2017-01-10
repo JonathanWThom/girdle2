@@ -1,12 +1,12 @@
 {{#slick-carousel
   class="ember-carousel"
   autoplay=true
-  autoplaySpeed=2000
+  autoplaySpeed=4000
   slidesToShow=1
   slidesToScroll=1
   dots=true
   fade=true}}
   {{#each article as |article|}}
-    <div><img src={{article.image}}></div>
+    <div><img class='carousel-image' src={{article.image}}></div>
   {{/each}}
 {{/slick-carousel}}

@@ -1,11 +1,17 @@
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12" id="header">
-      <h1>{{#link-to 'index'}}Girdle{{/link-to}}</h1>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      {{#link-to 'index'}}<a class="brand-logo center">Girdle</a>{{/link-to}}
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
     </div>
-  </div>
+  </nav>
+</div>
+
+<div class="container">
   {{outlet}}
-  <footer>
-    {{#link-to 'admin'}}Admin portal{{/link-to}}
-  </footer>
+  {{#link-to 'admin'}}Admin portal{{/link-to}}
 </div>

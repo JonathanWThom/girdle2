@@ -4,7 +4,9 @@
 }
 
 body {
+  /*height: 100vh;*/
   background: linear-gradient(to top, #9b9b9b, transparent), url('https://cdn.bustle.com/nighthawk.bustle.com/production/images/featured-pattern-adf4d28b62ab3709637409b79515f043.svg');
+  background-size: cover;
 }
 
 .article-tile img {
@@ -14,5 +16,29 @@ body {
 .article-tile {
   background-color: white;
   margin: 20px;
-
 }
+
+nav {
+  background-color: white;
+}
+
+nav .brand-logo {
+  color: black;
+}
+
+#nav-mobile li a{
+  color: black;
+}
+
+.carousel-image {
+  width: 500px;
+  height: 325px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*.center {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}*/
