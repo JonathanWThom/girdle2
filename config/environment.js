@@ -7,10 +7,7 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     firebase: {
-      apiKey: "AIzaSyDBSk8EbzyQXPEjSCV38AVYwBKD_z_TeyQ",
-      authDomain: "girdle-86d6d.firebaseapp.com",
-      databaseURL: "https://girdle-86d6d.firebaseio.com",
-      storageBucket: "girdle-86d6d.appspot.com"
+  
     },
     EmberENV: {
       FEATURES: {
