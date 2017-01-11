@@ -5,7 +5,6 @@ export default Ember.Component.extend({
     deleteComment(comment) {
       if (confirm('Are you sure you want to delete this comment')) {
         this.sendAction('deleteComment', comment);
-        console.log('comment admin tile')
       }
     }
   }
